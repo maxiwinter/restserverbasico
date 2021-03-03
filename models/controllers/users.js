@@ -12,7 +12,7 @@ const usuariosGet =  (req=request, res=response) => {
     });
 }
 
-const usuariosPost =  (req, res=response) => {
+const usuariosPost =  (req=request, res=response) => {
 
     const {nombre, apellido, dni} = req.body;
 
